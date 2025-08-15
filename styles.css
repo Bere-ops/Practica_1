@@ -1,43 +1,36 @@
 body {
-    background-color: gray ;
-    font-family: Arial, sans-serif;
-    margin: 25px;
+  background-color: gray;
+  font-family: Arial, sans-serif;
+  margin: 25px;
 }
 
 h1, h2, h3, h4, h5 {
-    color: white;
-    border: 2px dotted burlywood;
-    padding: 10px;
-    border-radius: 8px;
-    display: inline-block;
+  color: black;
+  border: 2px dotted rgb(3, 3, 0);
+  padding: 10px;
+  border-radius: 8px;
+  display: inline-block;
 }
 
 p {
-    color: white;
-}
-
-.caja {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
-  justify-content: center;
+  color: black;
 }
 
 
 article,
-.libros{
-    background-color: black;
-    padding: 15px;
-    margin-bottom: 15px;
-    border-radius: 8px;
-    box-shadow: 0 0 5px rgba(0, 0, 0,0.1);
+.libros, .series, .mitologia, .juegos {
+  background-color: gray;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
 }
 
 
-img,
-.libros,.series,.mitologia{
-    max-width: 50%;
-    border-radius: 5px;
+article img,
+#libros img, #series img, #mitologia img, #juegos img {
+  max-width: 35%;
+  border-radius: 5px;
+  display: block;
 }
 
 
@@ -45,4 +38,7 @@ header, footer {
   text-align: center;
   margin-bottom: 16px;
 }
-footer p { color: silver; }
+
+footer p {
+  color: silver;
+}
